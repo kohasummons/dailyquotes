@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@growthbook/growthbook-react':
+    specifier: ^0.26.0
+    version: 0.26.0(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -527,6 +530,23 @@ packages:
     resolution: {integrity: sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@growthbook/growthbook-react@0.26.0(react@18.2.0):
+    resolution: {integrity: sha512-H3cXXjdlBPAJLbtlzP67lsD468Tt99frBIDpCivUWmLTduUIzOZmZgDdyrbPERMpBAALrPDdHHFt1PGjXLDKgA==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: ^16.8.0-0 || ^17.0.0-0 || ^18.0.0-0
+    dependencies:
+      '@growthbook/growthbook': 0.36.0
+      react: 18.2.0
+    dev: false
+
+  /@growthbook/growthbook@0.36.0:
+    resolution: {integrity: sha512-5u1x34H7pg5zS5db3UZ1Pn5hL/jj1EOWdUuz5tSIDUfW49TOWtxtrOAx0Qu1B+UmrIcZKE5XJr6TmWdmdOK12g==}
+    engines: {node: '>=10'}
+    dependencies:
+      dom-mutator: 0.6.0
+    dev: false
 
   /@humanwhocodes/config-array@0.11.14:
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
@@ -1220,6 +1240,11 @@ packages:
     dependencies:
       esutils: 2.0.3
     dev: true
+
+  /dom-mutator@0.6.0:
+    resolution: {integrity: sha512-iCt9o0aYfXMUkz/43ZOAUFQYotjGB+GNbYJiJdz4TgXkyToXbbRy5S6FbTp72lRBtfpUMwEc1KmpFEU4CZeoNg==}
+    engines: {node: '>=10'}
+    dev: false
 
   /eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
