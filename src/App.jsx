@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Home from './components/home';
+import './App.css';
 
 // Growthbook
 import { GrowthBook, GrowthBookProvider } from '@growthbook/growthbook-react';
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <GrowthBookProvider growthbook={growthbook}>
-      <main className='md:max-w-screen-sm w-3/4 mx-auto flex flex-col items-center'>
+      <main className='relative md:max-w-screen-sm w-3/4 mx-auto flex flex-col items-center'>
         <Home />
       </main>
     </GrowthBookProvider>

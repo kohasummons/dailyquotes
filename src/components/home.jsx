@@ -12,10 +12,10 @@ const Home = () => {
   return (
     <>
       {/* Code below is a feature flag */}
-      {isBannerVisible && <Banner />}
+      {isBannerVisible && <Banner className='absolute mt-20 mx-auto' />}
       {/* Code above is a feature flag */}
 
-      <header className='mb-16'>
+      <header className='mt-72 mb-16'>
         <h1 className='font-semibold text-2xl text-center tracking-tight'>
           dailyQuotes
         </h1>
